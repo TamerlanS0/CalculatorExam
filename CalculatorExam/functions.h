@@ -3,6 +3,8 @@
 
 #include <string>
 
+using namespace std;
+
 class ifade
 {
 public:
@@ -19,7 +21,7 @@ public:
 class FileManager
 {
 public:
-    void saveToFile(const std::string& expr, double result);
+    void saveToFile(const string& expr, double result);
 };
 
 bool equal(const char* a, const char* b);
